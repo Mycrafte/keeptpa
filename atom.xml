@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>龙结晶之地</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-12-02T04:12:39.205Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Keeptpa</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>让PSP1000重获新生——记一次大修记录</title>
+    <link href="http://yoursite.com/2018/12/02/psp/"/>
+    <id>http://yoursite.com/2018/12/02/psp/</id>
+    <published>2018-12-02T03:08:01.000Z</published>
+    <updated>2018-12-02T04:12:39.205Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>这两天在学校的跳蚤市场收了一台中古PSP1000，说是开不了机充不了电，抱着试试看的想法买回来修修看。成色六七成左右，看得出来原主人不是很爱护，屏幕有划痕，外壳也似乎受到过撞击。<br><img src="\image\IMG_20181130_125739.jpg" alt="然后立马贴了个膜"></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;这两天在学校的跳蚤市场收了一台中古PSP1000，说是开不了机充不了电，抱着试试看的想法买回来修修看。成色六七成左右，看得出来原主人不是很爱护，屏幕有划痕，外壳也似乎受到过撞击。&lt;br&gt;&lt;img src=&quot;\image\IMG_20181130_125739.j
+      
+    
+    </summary>
+    
+    
+      <category term="维修" scheme="http://yoursite.com/tags/%E7%BB%B4%E4%BF%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>怎么上传博文来着</title>
+    <link href="http://yoursite.com/2018/12/02/explain/"/>
+    <id>http://yoursite.com/2018/12/02/explain/</id>
+    <published>2018-12-02T03:07:04.000Z</published>
+    <updated>2018-12-02T03:07:35.414Z</updated>
+    
+    <content type="html"><![CDATA[<p>呃……那什么，我经常忘记怎么写新博文，所以这是一个说明书。<br>1、基于Blog根目录用Git Bash命令</p><figure class="hljs highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">hexo <span class="hljs-keyword">new</span> <span class="hljs-string">"xxx"</span><br></code></pre></td></tr></table></figure><p>新建一个叫xxx的博文，这时根目录\source_posts下就会出现一个叫xxx.md的markdown格式博文。<br>把编译器输出的博文粘贴进去，保存，然后<br><figure class="hljs highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs javascript">hexo clean<br>hexo generate<br>hexo deploy<br></code></pre></td></tr></table></figure></p><p>这样就传到github仓库了<br>一般来说等一会就能看见了</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;呃……那什么，我经常忘记怎么写新博文，所以这是一个说明书。&lt;br&gt;1、基于Blog根目录用Git Bash命令&lt;/p&gt;
+&lt;figure class=&quot;hljs highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="说明书" scheme="http://yoursite.com/tags/%E8%AF%B4%E6%98%8E%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>镇站</title>
+    <link href="http://yoursite.com/2018/11/29/homepage/"/>
+    <id>http://yoursite.com/2018/11/29/homepage/</id>
+    <published>2018-11-29T11:03:11.584Z</published>
+    <updated>2018-11-29T11:21:45.863Z</updated>
+    
+    <content type="html"><![CDATA[<font color="blue" size="6">你好，欢迎你给我这小站点来一铲</font><p>我跟你说，博客做的好看的那都不是真正的理科男，那是艺术生。</p><p>｛想看我的个人介绍，请移步 关于 或 首页<br>想看我的博文/实验报告/相册 请移步 分类/归档 或 直接搜索｝</p><blockquote><p>欢乐时光总是很短暂，包括你在这的时间也是</p></blockquote><p>这下面↓是最新的文章，看个乐呵吧</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;font color=&quot;blue&quot; size=&quot;6&quot;&gt;你好，欢迎你给我这小站点来一铲&lt;/font&gt;
+
+&lt;p&gt;我跟你说，博客做的好看的那都不是真正的理科男，那是艺术生。&lt;/p&gt;
+&lt;p&gt;｛想看我的个人介绍，请移步 关于 或 首页&lt;br&gt;想看我的博文/实验报告/相册 请移步 分类/归
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

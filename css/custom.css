@@ -1,0 +1,6 @@
+* {
+  cursor: url("http://118.89.20.48/img/Diamond%20Sword.ico"), auto !important;
+}
+:active {
+  cursor: url("http://118.89.20.48/img/Diamond%20Pickaxe.ico"), auto !important;
+}
