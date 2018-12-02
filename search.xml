@@ -7,13 +7,13 @@
       <link href="/2018/12/02/psp/"/>
       <url>/2018/12/02/psp/</url>
       
-        <content type="html"><![CDATA[<ul><li>这两天在学校的跳蚤市场收了一台中古PSP1000，说是开不了机充不了电，抱着试试看的想法买回来修修看。成色六七成左右，看得出来原主人不是很爱护，屏幕有划痕，外壳也似乎受到过撞击。<br><img src="\image\IMG_20181130_125739.jpg" alt="然后立马贴了个膜"></li></ul>]]></content>
+        <content type="html"><![CDATA[<p> 这两天在学校的跳蚤市场收了一台中古PSP1000，说是开不了机充不了电，抱着试试看的想法买回来修修看。成色六七成左右，看得出来原主人不是很爱护，屏幕有划痕，外壳也似乎受到过撞击。</p><p><font color="gray" size="3">要知道，这家伙最早可是2004年12月12出厂的，如果我足够幸运，这家伙是14年前的娱乐设备……想想就好激动。</font><br>先来一张全家福<br><img src="https://i.loli.net/2018/12/02/5c03ea4c2eda0.jpg" alt="IMG_20181130_125739.jpg"><br>（我甚至直接给她贴上了自己做图的膜）</p><ul><li><p>本次我们的任务是<br>1.更换导电硅胶<br>2.按键（原来的都秃成和尚了）<br>3.DC电源口<br>4.顺便观览一下十四年前的做工</p><p>老规矩，先卸下外壳……电池仓内四枚螺丝，机身侧面两枚。记得要用小口十字刀，拧花了可没处哭去<br><img src="https://i.loli.net/2018/12/02/5c03ea5ea3b0d.jpg" alt="IMG_20181130_125957.jpg"><br>（拍虚了）<br>可以看见浅层构造——两侧的触板，左下角的模拟摇杆……<br>值得一提的是，螺丝居然打了螺丝胶，虽然想好评……但是我拆起来真的是费劲。<br>嗯，已经可以更换硅胶和按键了……但是我们的DC头……它的线躲在里面不出来<br>嘛……真是头疼，本来打算能不拆就不拆来着。看来这回必须拆了<br><del>因为我经常拆了装不回去</del><br>经过仔细观察，发现屏幕压住了金属骨架（哇，居然上金属骨架）、下方物理按键压住了屏幕……<br>我们先拆掉物理按键的<font color="blue" size="4">排线</font>以免悲剧发生<br><img src="https://i.loli.net/2018/12/02/5c03ea59238b9.jpg" alt="IMG_20181130_130040.jpg"><br>好，它下来了。<br>我们可以看见这块屏幕是夏普制作的，04年的游戏机行业哦……<br>屏幕两侧各有两个卡扣，扣住了下面的金属骨架。这里推荐上一字刀。<br>干什么？<br>==物理学圣剑！==<br><img src="https://i.loli.net/2018/12/02/5c03ea5d5f5f5.jpg" alt="IMG_20181130_130302.jpg"><br>3、2、1、嘿！注意<font color="blue" size="4">排线</font>！！<br>屏幕有俩排线，一大一小。一个是背光，一个是输入。<br>然后我悲剧的发现，我们的DC头走线<br><font color="blue" size="4">躲在了金属骨架后面</font><br>拆吧。<br>仔细观察，发现的螺丝全部拆掉。包括碟机头部一枚。<br>您老下来吧。<br><img src="https://i.loli.net/2018/12/02/5c03ea5a131f3.jpg" alt="IMG_20181130_130457.jpg"><br><font color="blue" size="4">注意模拟摇杆的导电胶附在骨架了，不要弄丢！</font><br>终于看见DC头的走线了！！龟龟！再拆下去就不剩啥了！<br><del>我都不知道能不能装回去了！</del><br>圣剑开右侧触板，拔出DC头插线，卸下DC头，原路换新。<br><img src="https://i.loli.net/2018/12/02/5c03ea4af2e9b.jpg" alt="IMG_20181130_130928.jpg"><br>再给它找个妖娆的姿势盘回去…………<br><img src="https://i.loli.net/2018/12/02/5c03ea526e662.jpg" alt="IMG_20181130_131840.jpg"><br>原路返回后，把最简单的东西装好。<br>收工！<br>你问我病人恢复怎样？<br>抱歉，学业为重，来不及复查。</p></li></ul>]]></content>
       
       
       
         <tags>
             
-            <tag> 维修 </tag>
+            <tag> 维修,老物情怀 </tag>
             
         </tags>
       
@@ -51,20 +51,20 @@
   
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    <entry>
       <title>about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[<p>#关于<br>关于我自己？<br>打游戏，听歌，看番，码代码，做航模，买linux服务器。<br>以理工男为豪，<del>目前却因为特殊原因碰不到碰任何机械</del><br><del>被高数吊着打</del><br>学过JAVA，被对象和类按在地上打<br>学过PS，被crash怼在墙上锤<br>喜欢Minecraft，自己开服务器<br><del>但是没人陪我玩</del><br>人很善良，<del>脾气却不善良</del></p><blockquote><p>我比光跑得快，他得让着我。</p></blockquote><p>活得很快乐，没人时才忧伤。</p>]]></content>
+      
+    </entry>
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
