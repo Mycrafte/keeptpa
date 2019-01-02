@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-02T09:55:00.084Z</updated>
+  <updated>2019-01-02T09:59:50.782Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>笑岔气的BUG</title>
+    <link href="http://yoursite.com/2019/01/02/hahabug/"/>
+    <id>http://yoursite.com/2019/01/02/hahabug/</id>
+    <published>2019-01-02T09:56:00.000Z</published>
+    <updated>2019-01-02T09:59:50.782Z</updated>
+    
+    <content type="html"><![CDATA[<p>嘛……虽然这种BUG很常见就是了。<br>  git:  给大家表演瞎子指路<br>  <img src="https://i.loli.net/2019/01/02/5c2c8b76ccd18.jpg" alt="这是我打的"><br>  <img src="https://i.loli.net/2019/01/02/5c2c8b8dea05d.jpg" alt="这是……他告诉我的"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;嘛……虽然这种BUG很常见就是了。&lt;br&gt;  git:  给大家表演瞎子指路&lt;br&gt;  &lt;img src=&quot;https://i.loli.net/2019/01/02/5c2c8b76ccd18.jpg&quot; alt=&quot;这是我打的&quot;&gt;&lt;br&gt;  &lt;img src=&quot;https:
+      
+    
+    </summary>
+    
+    
+      <category term="BUG" scheme="http://yoursite.com/tags/BUG/"/>
+    
+  </entry>
   
   <entry>
     <title>期末自救——细想道德修养与法制基础</title>
