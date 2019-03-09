@@ -83,7 +83,7 @@
     <script defer type="text/javascript" src="/js/index.js"></script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>关于 | 龙结晶之地</title>
+    <title> | 龙结晶之地</title>
   </head>
   <body itemscope="" itemtype="http://schema.org/WebPage" lang="default" data-spy="scroll" data-target=".list-group">
     
@@ -110,7 +110,7 @@
         
         <li role="menuitem"><a href="/categories/">分类</a></li>
         
-        <li role="menuitem"><a href="/about/" class="current">关于</a></li>
+        <li role="menuitem"><a href="/about/">关于</a></li>
         
       </ul>
     </nav>
@@ -123,23 +123,65 @@
         <div class="main-container">
           <div class="content">
             
-<div id="page" class="page">
-  <article class="article post card">
+<div id="post" class="page">
+  
+  <article class="article post card" itemscope="" itemtype="http://schema.org/Article">
+    <div class="post-block">
+      <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/09/Mine/">
+      <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+       <meta itemprop="name" content="Keeptpa">
+       <meta itemprop="description" content="是，我没有更高清的头像了">
+       <meta itemprop="image" content="/images/avatar.jpg">
+      </span>
+      <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+       <meta itemprop="name" content="龙结晶之地">
+      </span>
+    </div>
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        <span>关于</span>
-      </h1>
+      <h1 class="post-title" itemprop="name headline"></h1>
+      <div class="post-meta">
+        
+        <span class="post-date">
+          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2019-03-09T15:44:15+08:00">2019-03-09 15:44:15</time></span>
+        </span>
+        
+        
+        
+      </div>
     </header>
-    <main class="post-main">
-      <p>#关于<br>关于我自己？<br>打游戏，听歌，看番，码代码，做航模，买linux服务器。<br>以理工男为豪，<del>目前却因为特殊原因碰不到碰任何机械</del><br><del>被高数吊着打</del><br>学过JAVA，被对象和类按在地上打<br>学过PS，被crash怼在墙上锤<br>喜欢Minecraft，自己开服务器<br><del>但是没人陪我玩</del><br>人很善良，<del>脾气却不善良</del></p>
-<blockquote>
-<p>我比光跑得快，他得让着我。</p>
-</blockquote>
-<p>活得很快乐，没人时才忧伤。</p>
+    <main class="post-main" itemprop="articleBody">
+      <p>  在Minecraft中，矿石是一种生存下去的必备资源。当然，在最小生命支持的情况下（仅食物）是不需要的。但是那样玩游戏可真没意思，把自己堵在一个洞穴里只管吃可太不像话了。要想玩好游戏，让生存条件更上一层就必不可少。例如用坚固的钻石盔甲保护你自己、用锋利的钻石剑武装你自己等等……换句话说，获取这些高级资源就是推动游戏进度朝着高等级发展的必备之物。\<br>　　根据定义，矿石是一种可用来获取资源（对应矿物）的稀有方块，根据矿物自身的稀有度不同，他们的出现概率也不同。例如相对而言，煤炭就比钻石常见得多。另一方面，特定的矿物有着自己特定的生成高度，例如钻石矿的通常分布上限为ｙ∈［5，12］层，并常见于12层。而往上的13-15层则开始变的稀少，等到y&gt;16时根本就找不到任何钻石了。\<br>　　作为对比，煤炭则要宽容的多，在y∈[5,12]层为通常分布，在132层以上没有分布（谁会去这里挖矿？）。\<br>　　也有例外的家伙——比如石英矿，不仅只会生成在地狱，而且会生成在地狱的任何位置（除了熔岩和基岩），蛮不讲理，毫无章法。\<br>　　那么，如果想要挖某种矿物，就要到他对应的层数去挖，这是浅显易懂的道理。但是，如果你是为了其他目的进行挖矿呢？比如只是为家里保持一下资源丰富度，或者是单纯为了附魔攒经验？这时候你就会用到数学了……不过巧妇难为无米之炊，没有数据就无法计算。好在Wiki给出了一张图片，上面精细地描绘了各种矿物分布和高度的关系：<br><img src="https://i.loli.net/2019/03/09/5c83754b99dde.png" alt="矿物分布关系图"><br>　　目测一下各曲线的积分，不难看出煤炭的收益量是远超其他矿物的——但是这建立在你把整个区域从天到地挖个通透的前提条件下。（科学是一眼无法看透的。）</p>
+<hr>
+<p>　　那么首先假设你是要挖某种特定矿石，我给出的是各矿物对应最佳层数：\<br>　　<img src="https://i.loli.net/2019/03/09/5c837866090fb.jpg" alt="矿物与其最佳分布层数"></p>
+<p>注*：金II代表的是在Badland生态群系（就是一大堆硬化粘土山那个）内的黄金分布。\<br>PS：绿宝石是苛刻的矿石，只生成在山脉群系，均匀分布在其下。而下界石英我已经说过，这货根本毫无章法。\<br>　　你可能会问：明明在图上有很多矿物在y&lt;10的情况下依然有着不错的分布，为什么我的表格统统都选取了y&gt;10的高度？——答案很简单——\<br>　　……岩浆生成在y&lt;10哦。</p>
+<hr>
+<p>　　如果你今天是正好需要经验，顺手挖挖矿而已，那么又该去哪一层？\<br>　　这个问题我打赌你们没想过（挺胸）。首先大家都知道即时掉落的矿石在被破坏的时候会给予一定量的经验值，他们是：\<br>　　<img src="https://i.loli.net/2019/03/09/5c837a4a636ae.jpg" alt="经验对应分布">\<br>　　(青金石我少打了一个”‘“让笨蛋Excel识别为日期了，其实我打的是2-5）\<br>　　因此结合矿物分布概率就有了：某矿物经验总收获Ｅ（y）=分布率P(y)*最大经验值\<br>　　因为一个玩家两格高，因此我们选取Δy=2的情况下计算积分，由于图表不够准确，得出近似值:\<br>　　<img src="https://i.loli.net/2019/03/09/5c837d717ff1a.jpg" alt="经验回报和高度关系">\<br>　　需要注意的是，这只是理论数据。但是我的经验告诉我，专门奔着红石去的伙伴们钻出矿洞后，身上经验绝对不会少。相对的，煤炭由于其分布广，尽管单颗矿石给予的经验少，但是累积起来也是一个可观的数量。\
+　　</p>
+<hr>
+<p>　　现在要提出一个新概念：你就是闲着没事干挖着玩。\<br>　　但是挖着玩也得有点奔头，不如算算怎么挖能受益最大。因此我需要引入一个新概念，即每种矿物的珍稀程度——有了珍稀程度才能使用加权来算。但是衡量矿物的价值是件困难的事，如果我们单从生成量来看，绿宝石无疑是世界珍宝，但是游戏经验告诉我们绿宝石将会在我们找到一个交易不错的村民后变得索然无味。因此价值的判定十分棘手，我想到了另一个歪点子……\<br>　　不知道各位有没有玩过等价交换？这是一个远古时代的PC模组，他为大部分的物品设定了一个叫做“EMC值”的数据，物品可以根据这个“价格”转换为“EMC态”储存于你“EMC账户”里，并且根据各物品特有的EMC值互相转换。我首先获取到了各矿物对应EMC值：\<br>　　<img src="https://i.loli.net/2019/03/09/5c83800fc35c4.jpg" alt="EMC对应表">\<br>　　有了这个表，我们可以粗略估计在哪一层挖能收益最大，考虑到岩浆，无论你收获了什么好东西，把自己挖进去之后渣都不给你剩一丁，这就毫无意义了。所以10层以下不纳入考虑。\<br>　　平均EMC收获G(y)=∑(分布率*EMC值)\<br>　　然后我对着图表看了一年，直接丢结论好了：y=11，只可向上，不可向下，然而也不能高于13.因为此处的EMC带队大佬——钻石差不多匿迹了。</p>
+<hr>
+<p>　　挖掘方式推荐：\<br>　　众所周知，最佳的挖矿方法是鱼骨（也叫丰字）挖矿法，即选取一条主干道，每隔一定距离向两侧挖掘一定距离的方法。我们来看看这个“一定距离”取什么值最好。\<br>　　<img src="https://i.loli.net/2019/03/09/5c838381e0d58.jpg" alt="实例">\<br>　　这是一个区块内的“模拟矿道”，我们将在其中对“可以看见的方块”和挖掘方式进行比较，用一个常量——挖掘效益Q=可以看见的方块/挖掘工作量<br>来判断挖掘收益\<br>　　如图是一个已经开好主矿道的区块，首先采用广泛的挖一隔二来看\<br>　　就像左侧那样挖：<img src="https://i.loli.net/2019/03/09/5c8384723e0fa.jpg" alt="挖掘模拟Ｉ"><br>那么暴露两侧需要的挖掘量是５×７×２＝７０块（不算主矿道，不算身高），可以看见１００％的方块，因此Q=0.01428<br>　　如果空三格呢？那么工作量就是4<em>7</em>2=56块，可以暴露81.25%的方块，Q=0.01450<br>　　我算的是什么？是暴露率百分百和挖掘工作量的比值，在这个比值下，可以看出隔三进一有着非常非常非常非常微弱的优势，我是说，唉，你忽略他吧。万一钻石就藏在那48块里呢（笑）。不过不用过分担心，因为钻石单独一块生成是极其罕见的情况，大多数时候都会有至少一块露出来被你看见的。<br>所以，我推荐你用一下隔三进一的丰字挖法。</p>
+<hr>
+<p>　　这就是今天的内容了：各挖矿目的和对应层数，以及一个挖掘建议</p>
 
     </main>
-    <footer class="post-footer"></footer>
+    <footer class="post-footer">
+      
+    </footer>
   </article>
+  
+  
+  <nav class="page-nav">
+    <div class="page-nav-next page-nav-item">
+      
+      <a href="/2019/01/05/note2/" rel="next" title="note2"><i class="fas fa-angle-left"></i><span class="nav-title">note2</span></a>
+      
+    </div>
+    <div class="page-nav-prev page-nav-item">
+      
+    </div>
+  </nav>
+  
   
 </div>
 
